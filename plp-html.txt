@@ -1,0 +1,121 @@
+<!--FCC Project-3: Product landing page-->
+<head>
+  <title>Family Jewels, artisanal stone product page.</title>
+</head>
+
+<body>
+  <div id="page-skin" class="pattern">
+    <header id="header">
+      <nav id="nav-bar" class="nav-bar">
+        <div class="image">
+      <img id="header-img" src="https://bl3301files.storage.live.com/y4mVYhiOdzpv9smoSTRLBwvPmpvXi3UrOwxtu_YvVjgdUblNQM3j94IyWbHWgVG_Kv6kdjP-jSucZAJ2t9kE98Zl6Gjxy-WwIsG3FWSOAaToP8S9mum5LX--uMJMsoCkutrvP9gxsBzfL09fSWHHYve8eLd_lc4_NrMIDGHUsqOh8zuvCsUlG1NGbM2WS_V1cHr?width=733&height=458&cropmode=none" alt="Family Jewels logo" class="image">
+    </div>
+      <ul>
+        <li><a class="nav-link" href="#product-description">Product Information</a></li>
+        <li><a class="nav-link" href="#education">Educational Content</a></li>
+        <li><a class="nav-link" href="#community">Community</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="first" class="container">
+    <div class="intro">
+     <h1 class="pattern">Artisanal Stones</h1>
+     <p id="family-history">Four generations of dedicated artisans bringing style and function to your environment. Our professionals select only the finest size, shape, and color allowing us to deliver the quality you deserve.</p>
+    <div id="family-list" class="founders">
+      <ul id="family-origin-story">
+        <li class="founders-story">A family run business started by a lucky prospector.</li>
+        <li class="founders-story">Our stones are mined ethically, and in a manner that preserves the environment.</li>
+        <li class="founders-story">Artist in Residence signture pieces created annually.</li>
+        <li class="founders-story">100% Guaranteed!</li>
+      </ul>
+    </div>
+
+    <section class="promotions">
+     <p>To sign up for our "text promotional discounts" list, add your phone number! You will receive a 10% discount on your first purchase.</p>
+     <form id="phone-list" action="data-form" class="phone-number">
+      <input name="phone" id="phone" type="phone" placeholder=" Enter your phone number">
+      <input name="submit" id="submit" type="submit" placeholder="submit">
+     </form>
+    </section>
+    </div>
+   </div>
+    <h1 class="pattern">Introduction to the products</h1>
+    <div class="grid-products" id="product-description">
+     <div class="products" id="small-rocks">
+      <img src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/frgravel_background_stones_256970-image-kybdgzo2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=505951083ac580e30d0f7cf77015f058" alt="picture of little stones" class="image-products">
+      <p class="product-info">Our smallest stone option comes in 3 colors, and 2 finishes. Great for detailing and accents.</p>
+      <a class="product-link" href="https://www.youtube.com/embed/rPJz3syNbtE">The Minikin Collection</a>
+     </div>
+
+     <div class="products" id="medium-rocks">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Pebbles_from_the_Danube.JPG" class="image-products">
+      <p class="product-info">Our mid-sized selection is varigated and uniform. Excellent for zen gardens and walking meditation paths.</p>
+      <a class="product-link" href="https://upload.wikimedia.org/wikipedia/commons/d/d4/Pebbles_from_the_Danube.JPG" class="image-specialty">The Conventional Line</a>
+     </div>
+
+     <div class="products" id="large-rocks">
+      <img src="https://www.maxpixel.net/static/photo/2x/Gigantic-Huge-Foundling-Stone-Large-Climb-Rock-3386091.jpg" class="image-products">
+      <p class="product-info">This is our quite-large selection. Each stone, hand-picked, and delivered im perfect condition. Many colors. Many textures.</p>
+      <a class="product-link" href="https://www.youtube.com/embed/n4QSYx4wVQg">The Capacious Selection</a>
+     </div>
+    </div>
+
+   <div class="container" id="education">
+     <h1 id="you-tube-video" class="pattern">What makes stones rare and precious?</h1>
+    <p>Please enjoy this in-depth educational video produced by Earth and Space Sciences X.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6XbXM5y1110" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+   </div>
+
+   <div class="container-monuments">
+     <h1 id="monuments-title" class="pattern">Specialty Stonework</h1>
+     <div class="monuments">
+
+      <img id="stonehenge" src="https://cdn.pixabay.com/photo/2017/05/19/15/08/stonehenge-2326750_1280.jpg" alt="Image:Stonehenge" class="image-specialty">
+     </div>
+
+     <div class="monuments">
+      <img id="easter-island-heads" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYm453gA1jzub8bxLi0Lo4bpZNjkYRHVhpjA&usqp=CAU" alt="Image:Easter Island Heads" class="image-specialty">
+     </div>
+
+     <div class="monuments">
+      <img id="stone-wall" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzLkv_ROUBgxQZsL7pFH_YOH6JD0Ds-8z2RA&usqp=CAU" alt="Image: large boulder  stone wall." class="image-specialty">
+     </div>
+
+     <div class="monuments">
+      <img id="devils-tower" src="https://www.treehugger.com/thmb/Pfby17B7CbTvQVSR7KUcnzgl9HA=/1000x750/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2017__04__Devils-Rock-Snowy-Blue-Skies-Boulders-ad564e98c2cd4d348c4c7bfd597e9934.jpg" alt="Image of Devil's Tower, Wyoming" class="image-specialty">
+     </div>
+
+   <div class="monuments" id="email-list">
+    <p>blurb on free quotes for special services, provide an email address to schedule your free consultation!</p>
+    <form id="form" action="data-form" class="email">
+     <input name="email" id="email" type="email" class="email" placeholder="Enter your email">
+     <input name="submit" id="submit" type="submit" placeholder="submit">
+    </form>
+   </div>
+  </div>
+    <div class="container" id="community">
+    <h1 id="class-header" class="pattern">Community</h1>
+    <p>We are pleased to be able to provide classes for a variety of intrests. Each class will take place twice on its scheduled date. The first class will be held at <em>10-11 AM</em>. The same morning presentation will be repeated at <em>6-7PM</em>.</p>
+    <p>Our classes are <em>Free</em>, and we welcome you to attend. Please be mindful of the start time as our speakers are frequently donating their time and knowledge.
+  </div>
+
+
+    <div id="community-extras" class="container">
+    <p>We stand by our craftsmanship. 100% guaranteed.</p>
+      <p style="font-family: cursive">Returns accepted for any order.</p>
+  </div>
+ </div>
+   <footer id="footer" class="footer">
+    <nav id="nav-footer" class="nav-bar">
+      <ul>
+       <li><a class="nav-link" href="#about-us">Our Goals</a></li>
+       <li><a class="nav-link" href="#education">Contact Us</a></li>
+       <li><a class="nav-link" href="#community">Schedule an Appointment</a></li>
+      </ul>
+     </nav>
+    </footer>
+  </div>
+</body>
+
+</html>
